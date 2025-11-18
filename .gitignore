@@ -1,0 +1,85 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+.env/
+.flux/
+venv/
+ENV/
+env/
+
+# Editable/install metadata
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+__editable__*
+
+# Byte-compiled / cache
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build / distribution
+build/
+dist/
+*.whl
+
+# SQLite / DB / data
+data/*.db
+data/*.sqlite
+*.sqlite3
+agent.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDE / OS
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# LM/Model large files (weights, caches)
+models/
+weights/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.ggml
+*.gguf
+*.safetensors
+model-*.zip
+cache/
+hf_cache/
+transformers_cache/
+
+# llama.cpp / local runtime artifacts
+*.mem
+*.state
+tmp/
+runs/
+
+# Secrets / local config
+.env.local
+secrets.json
+credentials.json
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+
+# Optional: ignore local notebooks checkpoints
+.ipynb_checkpoints/

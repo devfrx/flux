@@ -1,0 +1,16 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# HTTP client (per chiamare LMStudio API)
+httpx==0.28.1
+
+# Database
+aiosqlite==0.20.0
+
+# Validazione dati
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# Utilities
+python-dotenv==1.0.1
