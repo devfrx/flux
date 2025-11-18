@@ -6,7 +6,7 @@ class Settings(BaseSettings):
 
     #LMStudio
     lmstudio_url: str = "http://127.0.0.1:1234/v1"
-    lmstudio_model: str = "mistralai/magistral-small-2509"
+    lmstudio_model: str = "google/gemma-3-12b"
 
     # Database
     database_path: str = "./data/agent.db"

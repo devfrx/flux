@@ -14,3 +14,10 @@ pydantic-settings==2.7.1
 
 # Utilities
 python-dotenv==1.0.1
+
+# GUI Desktop
+customtkinter==5.2.2
+Pillow==10.4.0
+
+# System info (per tools)
+psutil==6.1.0
